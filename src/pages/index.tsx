@@ -51,9 +51,6 @@ export default function Home() {
     document.body.classList.add("theme-green");
   }
 
-  
-
-
   async function getTasks() {
     const res = await fetch(
       "https://my.api.mockaroo.com/tasks.json?key=f0933e60"
